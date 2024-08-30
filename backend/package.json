@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for patrimoine project",
+  "main": "serveur.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node serveur.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "express": "^4.17.1"
+  }
+}
